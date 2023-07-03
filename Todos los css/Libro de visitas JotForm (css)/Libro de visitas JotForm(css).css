@@ -1,0 +1,42 @@
+body
+{
+background-image: url(fondofutbol2.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: normal;
+}
+header
+{
+background: url("primera.jpg") no-repeat 3% center, url(primera.jpg) no-repeat 97%,
+#990f0f;
+background-size: 95px;
+font-size: 14px;
+font-weight: normal bolder;
+margin-left: 9px;
+padding: 23px;
+text-align: center;
+width: 96%;
+
+}
+header h1
+{
+margin: 0;
+text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5)
+}
+header h2
+{
+margin: 0;
+}
+
+.librodevisitas{
+  max-width: 1000px; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+  margin-top: 30px;
+  margin-bottom: -60px;
+ 
+  padding-bottom: 90px;
+}
+

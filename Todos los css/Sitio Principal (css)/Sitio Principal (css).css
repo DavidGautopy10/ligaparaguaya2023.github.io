@@ -1,0 +1,344 @@
+body
+{
+background-image: url(fondofutbol2.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: normal;
+}
+header
+{
+background: url("copadeprimera.png") no-repeat 3% center, url(tigosports.png) no-repeat 97%,
+#990f0f;
+background-size:  200px, 225px;
+font-size: 14px;
+font-weight: normal bolder;
+margin-left: 9px;
+padding: 23px;
+text-align: center;
+width: 95%;
+}
+header h1
+{
+margin: 0;
+text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5)
+}
+header h2
+{
+margin: 0;
+}
+nav {
+    background: #d7431a;
+    bottom: 0;
+    margin-top: -3px;
+    margin-left: 75px;
+    text-align: center;
+   
+    width: 90%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0 0; 
+  }
+  
+  nav li {
+    display: inline-block;
+    border-right: 1px solid white; 
+  padding-right: 0px; 
+  }
+  
+  
+nav li.last-item {
+  border-right: none; 
+}
+
+  nav li a {
+    background: #d7431a;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  nav li a:hover {
+    background-color: darkcyan;
+    transition: background-color 0.3s, transform 0.3s;
+    transform: scale(1.1);
+    color: black;
+    text-align: left;
+  }
+.Icono1 {
+	margin-left: -5px;
+    margin-right: 4px; 
+	background-position: left;
+	width: 35px;
+	height: 35px;
+  }
+  .Icono2 {
+	background-position:left;
+    margin-right: 4px; 
+	width: 35px;
+	height: 35px; 
+	margin-left: -5px;	
+  }
+  .Icono3 {
+	background-position: left;
+    margin-right: 4px; 
+	width: 35px;
+	height: 35px; 
+	margin-left: -5px
+  }
+  .Icono4 {
+	background-position: left;
+    margin-right: 4px; 
+	width: 35px;
+	height: 35px; 
+	margin-left: -5px
+  }
+  .Icono5 {
+	background-position: left;
+    margin-right: 4px; 
+	width: 35px;
+	height: 35px; 
+	margin-left: -5px
+  }
+
+  section
+  {
+  margin-top: 20px;
+  margin-left: 5px;
+  background: #eaf2ff;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 70%;
+  border: 3px solid white; 
+  border-radius: 5px; 
+  }
+  section article h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2e5595;
+      font-weight: 900;
+      margin: 13px;
+      padding: 0;
+      text-align: left;
+      text-shadow: 5px 5px 7px rgb(191, 191, 191)
+  }
+  .subtitulo {
+    margin-bottom: -100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    color: #db7f3c;
+      font-weight: 900;
+      margin: 13px;
+      padding: 0;
+      text-align: left;
+      
+    }
+  .mi-lista {
+    list-style-type: none;
+  }
+  .mi-lista li {
+    margin-bottom: 5px; 
+  }
+  .mi-lista li::before {
+    margin-left: -25px;
+    content: '✔';
+    color: #db7f3c;
+  margin-right: 5px;
+  }
+
+
+  .mi-listaaside {
+    list-style-type: none;
+  }
+  .mi-listaaside li {
+    margin-bottom: 5px; 
+  }
+  .mi-listaaside li::before {
+    margin-left: -25px;
+    content: '✔';
+    color: #c46e30;
+  margin-right: 5px;
+  }
+
+  .equiposclasificados {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #03308c ;
+    font-size: 25px;
+      font-weight: 800;
+      margin-left: 2px;
+      margin: 13px;
+      padding: 0;
+      text-align: left;
+      text-shadow: 5px 5px 7px rgb(196, 196, 196)
+  }
+  .clasificados {
+    margin-bottom: -100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #c1601b;
+      font-weight: 800;
+      margin: 13px;
+      padding: 0;
+      text-align: left;
+      
+  }
+  .sudamericana {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #c1601b;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-top: -25px; 
+    margin-bottom: 13px; 
+    padding: 0;
+    text-align: left;
+    
+  }
+  section article p{
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 11px;
+      padding-right: 9px;
+      font-size: 19px;
+      font-weight: 520;
+      letter-spacing: 1;
+      line-height: 30px;
+  }  
+  .letra {
+      font-size: 23px; 
+      font-family: Arial, sans-serif; 
+      color: #087200;
+    }
+    figure {
+      text-align: left; 
+    }
+    figure img {
+      border-radius: 10px; 
+      border: 2px solid black;
+    }
+    figcaption {
+      font-style: italic; 
+      font-size: 17px; 
+      color: #000000; 
+    }
+    p img {
+      margin-right: 90;
+    }
+    .hola {
+      display: flex;
+    }
+    
+    .hola img {
+      margin-right: 13px;
+    }
+  aside
+  {
+    margin-top: 20px;
+    margin-left: 24px;
+      background: #fef3e2;
+      color: black;
+      display: inline-block;
+      vertical-align: top;
+      
+      display: inline-block;
+  width: 25%;
+  border: 2px solid white; 
+  border-radius: 5px; 
+  }
+  .imagenlibertad img {
+    width: 120px; 
+    height: auto; 
+    margin-top: -35px;
+    transition: transform 0.3s ease; 
+  }
+  .imagenlibertad img:hover {
+    transform: scale(1.2); 
+  }
+  .imagen img {
+    padding: 13px;
+   
+      max-width: 15%; 
+      height: auto; 
+      transition: transform 0.3s ease; 
+    }
+    .imagen img:hover {
+      transform: scale(1.2); 
+    }
+    .imagen img {
+      display: flex;
+    }
+    
+    .imagen img {
+      margin-right: 7px; 
+    }
+    .imagen img {
+      float: left;
+    }
+    footer {
+      background: #a2ecd4;
+      color: black;
+      display: inline-block;
+      vertical-align: top;
+      border-radius: 10px; 
+      border: 3px solid white;
+      margin-left: 7px;
+      width: 97%;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding: 10px;
+    }
+  footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    
+    margin-left: 6px;
+    font-weight: 550;
+    letter-spacing: 1;
+    line-height: 25px;
+  }  
+  .fot {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 16px;
+      color: #0047d6 ;
+      text-align: right;
+      font-weight: 550;
+      letter-spacing: 1;
+      line-height: 0px;
+      padding-top: 20px;
+      padding-bottom: 0px;
+  }
+  footer h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #c1601b;
+    text-align: justify;
+    margin-left: 6px;
+    font-weight: 550;
+    letter-spacing: 1;
+    line-height: 25px;
+  }
+  .resaltado {
+    color: green;
+    text-decoration: underline;
+    transition: font-size 0.3s ease;
+  }
+  
+  .resaltado:hover {
+    font-size: 1.2em;
+  }
+  
+  .resaltado a {
+    color: inherit;
+    text-decoration: inherit;
+  }

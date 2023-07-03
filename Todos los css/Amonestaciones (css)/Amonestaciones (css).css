@@ -1,0 +1,253 @@
+body {
+  background-image: url(fondofutbol2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+}
+header
+{
+background: url("primera.jpg") no-repeat 3% center, url(primera.jpg) no-repeat 97%,
+#990f0f;
+background-size: 95px;
+font-size: 14px;
+font-weight: normal bolder;
+margin-left: 9px;
+padding: 23px;
+text-align: center;
+width: 95%;
+
+}
+header h1
+{
+margin: 0;
+text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5)
+}
+header h2
+{
+margin: 0;
+}
+caption {
+    color: black;
+    background: #fff711;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px
+}
+th,
+td {
+  padding: 4px;
+  font-size: 16px; 
+} 
+  
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
+}
+.container {
+    margin-bottom: 20px; 
+  }
+  
+  .header {
+    margin-bottom: 10px; 
+  }
+  
+  .caption {
+    margin-top: 10px; 
+  } 
+  
+  .hola {
+    color: white;
+    background: #FBFCB6;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 600px;
+    float: right;
+    border: 5px solid white; 
+    position: relative; 
+  }
+  
+ 
+  .custom-caption {
+    color: white;
+    background: #ff1313;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  figure {
+    text-align: center; 
+  
+  }
+  
+  figcaption {
+    font-style: italic; 
+    font-size: 14px; 
+    color: #000000; 
+  }
+  p img {
+    margin-right: 90;
+  }
+  .hola {
+    display: flex;
+    margin-right: 50px;
+  }
+  
+  .hola img {
+    width: 200px;
+    margin-right: 13px;
+  }
+  .titulojugadores {
+    color: black;
+    background: #fff711;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 80px;
+    padding-top: 10px;
+    height: 50px; 
+    width: 550px; 
+    float: right;
+  }
+  .tabla1 {
+    margin-left: 20px;
+  }
+  .tabla2 {
+    margin-right: 20px;
+  }
+  .titulotabla2 {
+    color: rgb(255, 255, 255);
+    background: #ff1313;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-bottom: -100px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    height: 50px;
+    width: 515px; 
+  }
+  .holatabla2 {
+    color: white;
+    background: #FF9191;
+    
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 700px;
+    margin-bottom: -150px;
+    padding-bottom: 10px;
+    width: auto;
+  overflow: hidden;
+    border: 5px solid white; 
+    position: relative; 
+  }
+  .holatabla2 figure {
+    float: left; 
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+footer
+{
+background: #1f0d77;
+border: 3px solid white;
+color: white;
+display: inline-block;
+vertical-align: top;
+
+width: 96%;
+margin: 25px 25px 25px 10px;
+padding: 10px;
+}
+footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    margin-left: 6px;
+    font-weight: 550;
+    letter-spacing: 1;
+    line-height: 25px;
+}  
+.descubre {
+  text-align: justify;
+  margin-left: 6px;
+}
+ul {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: white;
+  margin-left: 6px;
+
+  text-align: justify;
+  font-weight: 550;
+  letter-spacing: 1;
+  line-height: 25px;
+  list-style-type: none;
+}
+ul li:before {
+  content: '✔';
+  margin-right: 5px;
+}
+.fot {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    font-weight: 550;
+    letter-spacing: 1;
+    line-height: 0px;
+    padding-bottom: 0px;
+}
+h5 {
+  line-height: 1px;
+  text-align: center;
+}
+.pagina-principal {
+  background-color: #d7431a;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 1100px;
+  margin-right: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-top: 5px;
+  position: relative;
+  display: grid;
+  box-shadow: 0 0 15px cyan; 
+}
+
+.pagina-principal a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-decoration: none;
+}
+
+.pagina-principal:hover {
+  background-color: rgb(1, 164, 164);
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.1);
+}
+
+.pagina-principal:hover a {
+  color: black;
+}

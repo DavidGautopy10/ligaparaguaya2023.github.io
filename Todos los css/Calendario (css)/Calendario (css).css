@@ -1,0 +1,174 @@
+body {
+  background-image: url(fondofutbol2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+}
+header
+{
+background: url("primera.jpg") no-repeat 3% center, url(primera.jpg) no-repeat 97%,
+#990f0f;
+background-size: 95px;
+font-size: 14px;
+font-weight: normal bolder;
+margin-left: 5px;
+padding: 23px;
+text-align: center;
+width: 96%;
+
+}
+header h1
+{
+margin: 0;
+text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5)
+}
+header h2
+{
+margin: 0;
+
+}
+
+caption {
+    color: black;
+    background: #fff711;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px
+}
+.caption {
+  font-size: 29px;
+  text-align: center;
+  color: white;
+    background: #d7431a;
+    border-radius: 10px;
+  border: 2px solid white;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px
+} 
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+th, td {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+th {
+  background-color: #F1FC17;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #F1FC17;
+}
+footer
+{
+background: #1f0d77;
+border: 3px solid white;
+color: white;
+display: inline-block;
+vertical-align: top;
+
+width: 96%;
+margin: 25px 25px 25px 10px;
+padding: 10px;
+}
+footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    margin-left: 6px;
+    font-weight: 550;
+    letter-spacing: 1;
+    line-height: 25px;
+}  
+.descubre {
+  text-align: justify;
+  margin-left: 6px;
+}
+footer ul {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: white;
+  margin-left: 6px;
+
+  text-align: justify;
+  font-weight: 550;
+  letter-spacing: 1;
+  line-height: 25px;
+  list-style-type: none;
+}
+footer ul li:before {
+  content: '✔';
+  margin-right: 5px;
+}
+.fot {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    font-weight: 550;
+    letter-spacing: 1;
+    line-height: 0px;
+    padding-bottom: 0px;
+}
+h5 {
+  line-height: 1px;
+  text-align: center;
+}
+.pagina-principal {
+  background-color: #d7431a;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 1100px;
+  margin-right: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-top: 5px;
+  position: relative;
+  display: grid;
+  box-shadow: 0 0 15px cyan; 
+}
+
+.pagina-principal a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-decoration: none;
+}
+
+.pagina-principal:hover {
+  background-color: rgb(1, 164, 164);
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.1);
+}
+
+.pagina-principal:hover a {
+  color: black;
+}
